@@ -1,0 +1,38 @@
+{
+  "name": "vcpilot",
+  "version": "0.1.0",
+  "description": "Vibe coding 副驾:规格驱动 + 验收闭环 + 质量守门 + 上下文工程,给 ZCode / Cursor / Claude Code 等 coding agent 配套的 CLI(后续提供 MCP)",
+  "type": "module",
+  "bin": {
+    "vcp": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "vibe-coding",
+    "spec-driven",
+    "ai-code-review",
+    "agents-md",
+    "mcp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@playwright/test": "^1.63.0",
+    "commander": "^12.1.0",
+    "yaml": "^2.6.1",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,11 @@
+留言板
+  提交
+
+导出 CSV
+
+ac1_user_1 说:ac1 first message
+ac1_user_2 说:ac1 second message
+Alice 说:hello
+ac4_author_1788746348566 说:He said "hi, there", second line with 中文
+ac1_user_1 说:ac1 first message
+ac1_user_2 说:ac1 second message

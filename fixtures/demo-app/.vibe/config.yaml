@@ -1,0 +1,7 @@
+version: 1
+gates:
+  test: npm test
+  build: npm run build
+dev:
+  startCommand: node server.js
+  url: http://localhost:3000

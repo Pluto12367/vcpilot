@@ -1,0 +1,12 @@
+{
+  "name": "demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "vcpilot 演示项目:一个故意带 bug / 安全问题的迷你留言板,用来体验 vcp spec / verify / review 全流程",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
